@@ -247,3 +247,15 @@ Training process stopped around step ~4500 unexpectedly.
 - Reduce total iterations:
 ```bash
 --num-iters 4500
+
+## 🎯 Final Result (Gaussian Splatting)
+
+This is the reconstructed 3D scene from the AMtown02 dataset using OpenSplat.
+
+![result](splat_AMtown02-image.png)
+
+### Observations
+
+- The overall structure of buildings and roads is successfully reconstructed
+- RGB colors are preserved from input images
+- Some noise and blur exist due to limited iterations and data sampling
