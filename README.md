@@ -69,12 +69,15 @@ Explanation:
 <h2>🔥 Step 6: COLMAP Output</h2>
 
 Structure:
+
+```text
 ~/colmap_projects/amtown02_stride2/
 ├── database.db
 └── sparse/0/
     ├── cameras.bin
     ├── images.bin
     └── points3D.bin
+```
 
 Key files:
 cameras.bin → intrinsics  
