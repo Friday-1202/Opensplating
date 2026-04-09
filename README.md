@@ -27,7 +27,8 @@ Rules:
 ```
 
 <h2>🔥 Step 2: Create COLMAP Workspace</h2>
-```Logs:
+```text
+Logs:
 Loading ...
 Step 1000 ...
 Added gaussians
@@ -38,7 +39,8 @@ model is optimizing scene
 ```
 
 <h2>🔥 Step 3: Feature Extraction</h2>
-```Command:
+```text
+Command:
 colmap feature_extractor \
     --database_path ~/colmap_projects/amtown02_stride2/database.db \
     --image_path ~/real_images
@@ -48,7 +50,8 @@ Extract image features → stored in database.db
 ```
 
 <h2>🔥 Step 4: Sequential Matching</h2>
-```Command:
+```text
+Command:
 colmap sequential_matcher \
     --database_path ~/colmap_projects/amtown02_stride2/database.db
 
