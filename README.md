@@ -24,5 +24,6 @@ Rules:
 - continuous sequence
 - good overlap
 - low blur
+```
 
 <h2>🔥 Step 2: Create COLMAP Workspace</h2>
