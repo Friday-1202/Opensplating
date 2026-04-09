@@ -230,3 +230,20 @@ Images
 ✔ Key Idea:
 COLMAP estimates camera poses  
 OpenSplat performs neural rendering
+
+## ⚠️ Key Challenges
+
+### ❌ 1. Colab Session Killed During Training (OOM / Timeout)
+
+**Issue:**
+Training process stopped around step ~4500 unexpectedly.
+
+**Reason:**
+- GPU / RAM memory limit exceeded
+- Free Colab session timeout
+- Too many Gaussians generated during training
+
+**Solution:**
+- Reduce total iterations:
+```bash
+--num-iters 4500
