@@ -242,17 +242,17 @@ Training process stopped around step ~4500 unexpectedly.
 - GPU / RAM memory limit exceeded
 - Free Colab session timeout
 - Too many Gaussians generated during training
-
 **Solution:**
 - Reduce total iterations:
 ```bash
 --num-iters 4500
+```
 
 ## 🎯 Final Result (Gaussian Splatting)
 
 This is the reconstructed 3D scene from the AMtown02 dataset using OpenSplat.
 
-![result](splat_AMtown02-image.png)
+![result](./splat_AMtown02-image.png)
 
 ### Observations
 
