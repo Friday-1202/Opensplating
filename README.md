@@ -249,9 +249,9 @@ Training process stopped around step ~4500 unexpectedly.
 ```
 
 ## 🎯 Final Result (Gaussian Splatting)
-
-This is the reconstructed 3D scene from the AMtown02 dataset using OpenSplat.
 https://drive.google.com/file/d/1p8sJBuPs_YzKYoyYnDZKb_qGUx1Fr5Mp/view?usp=drive_link
+This is the reconstructed 3D scene from the AMtown02 dataset using OpenSplat.
+
 ![result](./splat_AMtown02-image.png)
 
 ### Observations
